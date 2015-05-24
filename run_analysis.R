@@ -54,6 +54,6 @@ for (s in 1:numSubjects) {
     row = row+1
   }
 }
-write.table(result, "average_activity_subject.txt")
+write.table(result, "average_activity_subject.txt", row.name=FALSE)
 
 
